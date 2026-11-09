@@ -1,0 +1,7 @@
+横版动作游戏 Demo
+
+运行方法：双击 GrandFloresDemo.exe。
+
+请勿只移动 EXE 文件。GrandFloresDemo_Data、MonoBleedingEdge、UnityPlayer.dll 和 UnityCrashHandler64.exe 都是运行所需文件，必须与 EXE 保持在同一目录结构中。
+
+建议将整个文件夹复制给试玩者，或直接发送同目录下生成的 ZIP 压缩包。

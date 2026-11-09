@@ -1,0 +1,7 @@
+# Windows generated files
+Thumbs.db
+Desktop.ini
+
+# Runtime logs and crash reports
+*.log
+crash.dmp
