@@ -1,0 +1,62 @@
+﻿[
+    {
+        "frame":  0,
+        "block":  0,
+        "sourceFrame":  0,
+        "x":  14,
+        "y":  6,
+        "width":  535,
+        "height":  129,
+        "byteOffset":  648,
+        "compressedBytes":  13394,
+        "image":  "frame_0000.png"
+    },
+    {
+        "frame":  1,
+        "block":  1,
+        "sourceFrame":  0,
+        "x":  14,
+        "y":  6,
+        "width":  224,
+        "height":  560,
+        "byteOffset":  14218,
+        "compressedBytes":  49660,
+        "image":  "frame_0001.png"
+    },
+    {
+        "frame":  2,
+        "block":  1,
+        "sourceFrame":  1,
+        "x":  14,
+        "y":  6,
+        "width":  224,
+        "height":  560,
+        "byteOffset":  63878,
+        "compressedBytes":  48779,
+        "image":  "frame_0002.png"
+    },
+    {
+        "frame":  3,
+        "block":  1,
+        "sourceFrame":  2,
+        "x":  14,
+        "y":  6,
+        "width":  224,
+        "height":  560,
+        "byteOffset":  112657,
+        "compressedBytes":  45828,
+        "image":  "frame_0003.png"
+    },
+    {
+        "frame":  4,
+        "block":  1,
+        "sourceFrame":  3,
+        "x":  14,
+        "y":  6,
+        "width":  224,
+        "height":  560,
+        "byteOffset":  158485,
+        "compressedBytes":  49879,
+        "image":  "frame_0004.png"
+    }
+]

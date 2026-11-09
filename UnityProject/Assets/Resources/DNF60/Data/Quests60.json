@@ -1,0 +1,10 @@
+{
+  "Quests": [
+    {"Id":"seria_first","Name":"与赛丽亚的初次见面","Description":"找赛丽亚谈谈。","StartNpc":"seria","EndNpc":"seria","Source":"n_quest/seria/sq.qst","Verified60":true,"Level":1,"Experience":40,"Gold":30,"Prerequisites":[],"Objectives":[{"Kind":1,"Target":"seria","Count":1}]},
+    {"Id":"meet_linus","Name":"铁匠林纳斯","Description":"前往艾尔文防线拜访铁匠林纳斯。","StartNpc":"seria","EndNpc":"linus","Source":"n_quest/epic/new-1.qst","Verified60":true,"Level":1,"Experience":60,"Gold":50,"Prerequisites":["seria_first"],"Objectives":[{"Kind":1,"Target":"linus","Count":1}]},
+    {"Id":"sauta_trial","Name":"狂暴的牛头巨兽","Description":"前往格兰之森，击败领主牛头巨兽。","StartNpc":"wind","EndNpc":"wind","Source":"n_quest/epic/new-5.qst","Verified60":true,"Level":3,"Experience":180,"Gold":120,"Prerequisites":["meet_linus"],"Objectives":[{"Kind":0,"Target":"领主·牛头巨兽","Count":1}]},
+    {"Id":"cat_hunt","Name":"令人头痛的猫妖","Description":"在格兰之森击败5只猫妖。","StartNpc":"wind","EndNpc":"wind","Source":"n_quest/epic/new-6.qst","Verified60":true,"Level":4,"Experience":220,"Gold":150,"Prerequisites":["sauta_trial"],"Objectives":[{"Kind":0,"Target":"猫妖","Count":5}]},
+    {"Id":"lightning_goblin","Name":"呼唤闪电的哥布林","Description":"前往赫顿玛尔后街找夏洛克谈谈。","StartNpc":"wind","EndNpc":"shylock","Source":"n_quest/epic/new-7.qst","Verified60":true,"Level":5,"Experience":120,"Gold":100,"Prerequisites":["cat_hunt"],"Objectives":[{"Kind":1,"Target":"shylock","Count":1}]},
+    {"Id":"sauta_king","Name":"牛头王萨乌塔","Description":"前往格兰之森，击败领主牛头王萨乌塔。","StartNpc":"wind","EndNpc":"wind","Source":"n_quest/epic/new-11.qst","Verified60":true,"Level":10,"Experience":500,"Gold":600,"Prerequisites":["lightning_goblin"],"Objectives":[{"Kind":0,"Target":"领主·牛头王","Count":1}]}
+  ]
+}
